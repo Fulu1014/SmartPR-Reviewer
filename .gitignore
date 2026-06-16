@@ -1,0 +1,5 @@
+build/
+*.pem
+*.log
+.vscode/
+config.h

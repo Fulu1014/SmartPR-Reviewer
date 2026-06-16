@@ -1,0 +1,20 @@
+// include/config.h
+#pragma once
+#include <string>
+
+namespace Config {
+    // 【修改点 1】：填入你的 GitHub App ID (纯数字)
+    const std::string APP_ID = "your_APP_ID_here"; 
+    
+    // 将原来的相对路径改为绝对路径
+    const std::string PRIVATE_KEY_PATH = "your_PRIVATE_KEY_PATH_here";
+    
+    // 你的 GitHub Webhook 安全密钥 (保持不变)
+    const std::string GITHUB_WEBHOOK_SECRET = "your_GITHUB_WEBHOOK_SECRET_here";
+    
+    // 你的 SiliconFlow API Key (保持不变)
+    const std::string SILICONFLOW_API_KEY = "your_SILICONFLOW_API_KEY_here";
+    
+    const std::string LLM_API_URL = "your_LLM_API_URL_here";
+    const std::string LLM_MODEL = "your_LLM_MODEL_here"; 
+}
